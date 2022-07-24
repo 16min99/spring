@@ -6,6 +6,10 @@ import com.study.spring.user.domain.User;
 import java.sql.SQLException;
 
 public class Main {
+
+    /**
+     * 초난감 DAO를 테스트해보자.
+     */
     public static void main(String[] args) throws SQLException, ClassNotFoundException {
         UserDao dao = new UserDao();
 
